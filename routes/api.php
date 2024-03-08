@@ -22,6 +22,7 @@ use App\Http\Controllers\ConvertSpeedController;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+// ROUTES
 Route::get('/convert/length/{value}/{unit}', ConvertLengthController::class);
 Route::get('/convert/weight/{value}/{unit}', ConvertWeightController::class);
 Route::get('/convert/temperature/{value}/{unit}', ConvertTemperatureController::class);
