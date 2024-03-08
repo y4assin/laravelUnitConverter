@@ -34,5 +34,6 @@ class ConvertLengthController extends Controller
 
         // Retorna el resultado de la conversión en formato JSON
         return response()->json(['result' => $result]);
+    
     }
 }

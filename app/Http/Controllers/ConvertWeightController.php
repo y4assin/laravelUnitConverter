@@ -17,7 +17,7 @@ class ConvertWeightController extends Controller
         // Convierte la unidad a minúsculas para evitar problemas de coincidencia de mayúsculas y minúsculas
         $unit = strtolower($unit);
 
-        // Inicializa el resultado
+        // Inicializa el resultado 
         $result = 0;
 
         // Dependiendo de la unidad proporcionada, realiza la conversión correspondiente
